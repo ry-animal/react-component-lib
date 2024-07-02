@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModelViewer /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  <model-viewer
+    alt="3d model"
+    autoplay="true"
+    camera-controls="false"
+    environment-image="[object Object]"
+    exposure="2"
+    src="./fake-media-path.glb"
+    style="display: inline-block;"
+  />
+</DocumentFragment>
+`;
+
+exports[`<ModelViewer /> rendering Rendering with props matches snapshot 1`] = `
+<DocumentFragment>
+  <model-viewer
+    alt="fake 3d model"
+    autoplay="false"
+    camera-controls="true"
+    environment-image="./fake-reflections.hdr"
+    exposure="1"
+    src="./fake-media-path.glb"
+    style="display: inline-block; max-height: 200px; max-width: 200px;"
+  />
+</DocumentFragment>
+`;

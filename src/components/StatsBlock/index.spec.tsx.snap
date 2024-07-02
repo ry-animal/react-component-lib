@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StatsBlock /> rendering should match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.2);
+  gap: 8px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 > * {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c3 {
+  font-family: 'Poppins',sans-serif;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.5);
+  padding: 8px 12px;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 75px;
+}
+
+.c1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  -webkit-transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+}
+
+.c1 .c2:hover,
+.c1 .c2:focus {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.c7 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.c6 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.c5 {
+  width: 12px;
+}
+
+@supports (-webkit-backdrop-filter:blur(15px)) or (backdrop-filter:blur(15px)) {
+  .c0 {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+  }
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Floor Price"
+      class="c1"
+    >
+      <div
+        class="c2 c3"
+      >
+        <div
+          class="c4"
+        >
+          <img
+            alt="ETH"
+            class="c5"
+            src="[object Object]"
+          />
+          <span
+            class="c6"
+          >
+            &lt;0.0001
+          </span>
+        </div>
+        <span
+          class="c7"
+        >
+          Floor Price
+        </span>
+      </div>
+    </button>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          $4,024.00
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        Weekly Volume
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          100k
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        NFTs
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          45k
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        Owners
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          10
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        For Sale
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<StatsBlock /> rendering should render with dark theme styles 1`] = `
+<DocumentFragment>
+  .c0 {
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.2);
+  gap: 8px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0 > * {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c3 {
+  font-family: 'Poppins',sans-serif;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.5);
+  padding: 8px 12px;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 75px;
+  background-color: rgba(255,255,255,0.1);
+  color: #ffffff;
+}
+
+.c1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  -webkit-transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+}
+
+.c1 .c2:hover,
+.c1 .c2:focus {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.c7 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.c6 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.c5 {
+  width: 12px;
+}
+
+@supports (-webkit-backdrop-filter:blur(15px)) or (backdrop-filter:blur(15px)) {
+  .c0 {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+  }
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Floor Price"
+      class="c1"
+    >
+      <div
+        class="c2 c3"
+      >
+        <div
+          class="c4"
+        >
+          <img
+            alt="ETH"
+            class="c5"
+            src="[object Object]"
+          />
+          <span
+            class="c6"
+          >
+            &lt;0.0001
+          </span>
+        </div>
+        <span
+          class="c7"
+        >
+          Floor Price
+        </span>
+      </div>
+    </button>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          $4,024.00
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        Weekly Volume
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          100k
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        NFTs
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          45k
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        Owners
+      </span>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c6"
+        >
+          10
+        </span>
+      </div>
+      <span
+        class="c7"
+      >
+        For Sale
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

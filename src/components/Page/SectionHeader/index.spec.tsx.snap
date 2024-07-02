@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionHeader /> rendering should render input and matches snapshot (no description) 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #404040;
+  font-size: 1.25em;
+}
+
+<h3
+    class="c0"
+  >
+    Title
+  </h3>
+</DocumentFragment>
+`;
+
+exports[`<SectionHeader /> rendering should render input and matches snapshot (with description) 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #404040;
+  font-size: 1.25em;
+}
+
+<h3
+    class="c0"
+  >
+    Title
+  </h3>
+  .c0 {
+  color: #404040;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+<p
+    class="c0"
+  >
+    Description
+  </p>
+</DocumentFragment>
+`;

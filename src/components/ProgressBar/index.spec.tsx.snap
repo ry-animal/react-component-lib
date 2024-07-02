@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.c1 {
+  text-align: left;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #151515;
+}
+
+.c2 {
+  background: #A4A4A4;
+  height: 12px;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.c3 {
+  width: 0%;
+  height: 100%;
+  border-radius: 24px;
+  background: #00B176;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+<div
+    class="c0"
+  >
+    <span
+      class="c1"
+      id="1"
+    >
+      Some Label
+    </span>
+    <div
+      class="c2"
+    >
+      <div
+        aria-busy="true"
+        aria-describedby="1"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="0"
+        class="c3"
+        role="progressbar"
+        width="0%"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

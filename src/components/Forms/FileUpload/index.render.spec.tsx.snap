@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileUpload /> rendering Custom content rendering 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  color: #151515;
+}
+
+.c1 {
+  display: none;
+  width: 0;
+}
+
+<div
+    class="c0"
+    label="Drop zone label"
+    role="application"
+  >
+    <p>
+      I am custom content
+    </p>
+    <input
+      accept="image/png,image/jpeg,text/plain,model/gltf-binary,.glb,.gltf"
+      aria-invalid="false"
+      aria-label="File selector"
+      class="c1"
+      type="file"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FileUpload /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #F9F9F9;
+  border: 1px dashed #DBDBDB;
+  border-radius: 4px;
+  font-family: 'Poppins',sans-serif;
+  padding: 3em;
+  text-align: center;
+}
+
+.c5 {
+  display: none;
+  width: 0;
+}
+
+.c1 {
+  color: #404040;
+  margin: 1em 30% 1em 30%;
+}
+
+.c4 {
+  color: #A4A4A4;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c2 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000000;
+}
+
+.c2:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c2:hover:not([disabled]),
+.c2:focus-visible:not([disabled]) {
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+<div
+    class="c0"
+    role="application"
+  >
+    <div
+      class="c1"
+    >
+      Drag and drop your media files here or click the “Select Media” button below
+    </div>
+    <button
+      aria-label="Select Media"
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Select Media
+      </span>
+    </button>
+    <div
+      class="c4"
+    >
+      Max file size: 100MB
+    </div>
+    <input
+      accept="image/png,image/jpeg,text/plain,model/gltf-binary,.glb,.gltf"
+      aria-invalid="false"
+      aria-label="File selector"
+      class="c5"
+      type="file"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FileUpload /> rendering Disable drag and drop 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #F9F9F9;
+  border: 1px dashed #DBDBDB;
+  border-radius: 4px;
+  font-family: 'Poppins',sans-serif;
+  padding: 3em;
+  text-align: center;
+}
+
+.c5 {
+  display: none;
+  width: 0;
+}
+
+.c1 {
+  color: #404040;
+  margin: 1em 30% 1em 30%;
+}
+
+.c4 {
+  color: #A4A4A4;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c2 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000000;
+}
+
+.c2:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c2:hover:not([disabled]),
+.c2:focus-visible:not([disabled]) {
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+<div
+    class="c0"
+    role="application"
+  >
+    <div
+      class="c1"
+    >
+      Drag and drop your media files here or click the “Select Media” button below
+    </div>
+    <button
+      aria-label="Select Media"
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Select Media
+      </span>
+    </button>
+    <div
+      class="c4"
+    >
+      Max file size: 100MB
+    </div>
+    <input
+      accept="image/png,image/jpeg,text/plain,model/gltf-binary,.glb,.gltf"
+      aria-invalid="false"
+      aria-label="File selector"
+      class="c5"
+      type="file"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FileUpload /> rendering Error rendering 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #F9F9F9;
+  border: 2px dashed #BC2828;
+  border-radius: 4px;
+  font-family: 'Poppins',sans-serif;
+  padding: 3em;
+  text-align: center;
+}
+
+.c5 {
+  display: none;
+  width: 0;
+}
+
+.c1 {
+  color: #404040;
+  margin: 1em 30% 1em 30%;
+}
+
+.c4 {
+  color: #A4A4A4;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c2 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000000;
+}
+
+.c2:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c2:hover:not([disabled]),
+.c2:focus-visible:not([disabled]) {
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+<div
+    class="c0"
+    role="application"
+  >
+    <div
+      class="c1"
+    >
+      Drag and drop your media files here or click the “Select Media” button below
+    </div>
+    <button
+      aria-label="Select Media"
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Select Media
+      </span>
+    </button>
+    <div
+      class="c4"
+    >
+      Max file size: 100MB
+    </div>
+    <input
+      accept="image/png,image/jpeg,text/plain,model/gltf-binary,.glb,.gltf"
+      aria-invalid="true"
+      aria-label="File selector"
+      class="c5"
+      type="file"
+    />
+  </div>
+  .c0 {
+  color: #BC2828;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+<span
+    class="c0"
+    role="alert"
+  >
+    test error
+  </span>
+</DocumentFragment>
+`;
+
+exports[`<FileUpload /> rendering Initial state rendering 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #F9F9F9;
+  border: 1px dashed #DBDBDB;
+  border-radius: 4px;
+  font-family: 'Poppins',sans-serif;
+  padding: 3em;
+  text-align: center;
+}
+
+.c7 {
+  display: none;
+  width: 0;
+}
+
+.c2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.c1 {
+  margin: 1em;
+  position: relative;
+}
+
+.c6 {
+  color: #404040;
+}
+
+.c5 {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.c4 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    role="application"
+  >
+    <div
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <button
+          aria-label="Discard"
+          class="c3"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6L6 18"
+              stroke="#151515"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+            <path
+              d="M6 6L18 18"
+              stroke="#151515"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </button>
+      </span>
+      <div
+        class="c4"
+        data-testid="blur"
+      >
+        <img
+          alt="Preview of uploaded image"
+          class="c5"
+          src="[object Object]"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        HangryCat
+      </div>
+    </div>
+    <input
+      accept="image/png,image/jpeg,text/plain,model/gltf-binary,.glb,.gltf"
+      aria-invalid="false"
+      aria-label="File selector"
+      class="c7"
+      type="file"
+    />
+  </div>
+</DocumentFragment>
+`;

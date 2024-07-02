@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageTile/> snapshots plus tile with default props to match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: anywhere;
+  background: #F9F9F9;
+  border: 1px solid #5F5F5F;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  color: #404040;
+  height: 145px;
+  width: 180px;
+}
+
+.c0:hover:not([disabled]) {
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #5F5F5F;
+}
+
+.c3 {
+  text-align: center;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #151515;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -12px;
+}
+
+.c1 {
+  background: transparent;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<button
+    aria-label="image-tile"
+    class="c0 c1"
+  >
+    <img
+      alt="plain plus"
+      class="c2"
+      src="[object Object]"
+    />
+    <p
+      class="c3"
+      role="paragraph"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<ImageTile/> snapshots plus tile with overriden props 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: anywhere;
+  background: #F9F9F9;
+  border: 1px solid #5F5F5F;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  color: #404040;
+  height: 544px;
+  width: 322px;
+}
+
+.c0:hover:not([disabled]) {
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #5F5F5F;
+}
+
+.c3 {
+  text-align: center;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #151515;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -12px;
+}
+
+.c1 {
+  background: transparent;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<button
+    aria-label="image-tile"
+    class="c0 c1"
+    size="1"
+  >
+    <img
+      alt="tile image"
+      class="c2"
+      src="test"
+    />
+    <p
+      class="c3"
+      role="paragraph"
+    >
+      wen lambo
+    </p>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<ImageTile/> snapshots plus tile with test props to match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: anywhere;
+  background: #F9F9F9;
+  border: 1px solid #5F5F5F;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  color: #404040;
+  height: 145px;
+  width: 180px;
+}
+
+.c0:hover:not([disabled]) {
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+}
+
+.c0:disabled {
+  cursor: default;
+  color: #5F5F5F;
+}
+
+.c3 {
+  text-align: center;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #151515;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -12px;
+}
+
+.c1 {
+  background: transparent;
+  border: none;
+  overflow: hidden;
+}
+
+.c1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 215%;
+  height: 100%;
+  z-index: -2;
+  border-radius: 4px;
+  background-size: 52.5% 100%;
+  background-image: linear-gradient(100deg,rgba(136,170,241,1) 0%,rgba(200,178,244,1) 55%,rgba(184,250,246,1) 90%,rgba(136,170,241,1) 100%);
+}
+
+.c1:after {
+  content: "";
+  padding: 1px;
+  z-index: -1;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.c1:hover:not([disabled]):before {
+  -webkit-animation-name: khHdcs;
+  animation-name: khHdcs;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.25s;
+  animation-duration: 1.25s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<button
+    aria-label="image-tile"
+    class="c0 c1"
+  >
+    <img
+      alt="tile image"
+      class="c2"
+      src="fake/"
+    />
+    <p
+      class="c3"
+      role="paragraph"
+    >
+      wen moon
+    </p>
+  </button>
+</DocumentFragment>
+`;

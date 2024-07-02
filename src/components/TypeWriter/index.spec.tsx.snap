@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TypeWriter /> Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  <span />
+  <span
+    aria-hidden="true"
+    class="typed-cursor"
+  >
+    |
+  </span>
+  .c0 {
+  display: none;
+}
+
+<div
+    class="c0"
+    style="display: none;"
+  >
+    <p>
+      Line 1
+    </p>
+    <p>
+      Line 2
+    </p>
+  </div>
+</DocumentFragment>
+`;

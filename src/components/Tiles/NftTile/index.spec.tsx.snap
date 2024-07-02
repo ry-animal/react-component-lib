@@ -1,0 +1,5636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NftTile /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Render conditional like button text and styles 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="unlike (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="filled like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Renders default footer if no props provided 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c1 {
+  line-height: 24px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Not for sale
+    </span>
+    <div
+      class="c2"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Renders network icons and matches snapshot 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          >
+            <svg
+              fill="none"
+              height="24"
+              role="img"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                data-testid="icon-lr"
+                fill="#E3EBFB"
+                r="12"
+              />
+              <path
+                d="M13.8257 11.7363H19.2896V11.7795L10.7468 16.9599L14.9965 13.5926L13.8257 11.7363ZM10.6167 6.72852V17.0463L6.28027 13.5926L10.6167 6.72852Z"
+                fill="#1C60FF"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should conditionally render footer if no info 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c21"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should conditionally render manage nft button 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c27 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c29 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c29:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c29:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c28 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    >
+      <div
+        class="c28"
+      >
+        <button
+          aria-label="Open Menu"
+          class="c29"
+        />
+      </div>
+    </div>
+    <div
+      class="c30"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should not render hidden status icon when visible 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c27 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c29 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c29:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c29:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c28 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    >
+      <div
+        class="c28"
+      >
+        <button
+          aria-label="Open Menu"
+          class="c29"
+        />
+      </div>
+    </div>
+    <div
+      class="c30"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should render Edit Draft button when action provided 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c23 {
+  line-height: 24px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c25 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000000;
+}
+
+.c25:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c25:hover:not([disabled]),
+.c25:focus-visible:not([disabled]) {
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <span
+            class="c23"
+          >
+            Not for sale
+          </span>
+          <div
+            class="c24"
+          />
+          <button
+            aria-label="Edit Draft"
+            class="c25"
+          >
+            <span
+              class="c26"
+            >
+              Edit Draft
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should render hidden status icon 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c32 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c30 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c27 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c29 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c29:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c29:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c31 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c31:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c31:hover {
+  opacity: 100%;
+}
+
+.c28 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    >
+      <div
+        class="c28"
+      >
+        <button
+          aria-label="Open Menu"
+          class="c29"
+        />
+      </div>
+    </div>
+    <div
+      class="c30"
+    >
+      <button
+        aria-label="Hidden"
+        class="c31"
+      />
+    </div>
+    <div
+      class="c32"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should render more options menu icon 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c32 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c30 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c27 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c24 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c23 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c25 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c29 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c29:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c29:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c31 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c31:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c31:hover {
+  opacity: 100%;
+}
+
+.c28 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <div
+            class="c23"
+          >
+            <span
+              class="c24"
+            >
+              <svg
+                fill="none"
+                height="20"
+                viewBox="0 0 24 24"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_14895_64936)"
+                >
+                  <path
+                    d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                    data-testid="icon-eth"
+                    fill="#151515"
+                    fill-opacity="0.8"
+                  />
+                  <path
+                    d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                    fill="#151515"
+                    fill-opacity="0.3"
+                  />
+                  <path
+                    d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                    fill="#151515"
+                  />
+                  <path
+                    d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                    fill="#151515"
+                    opacity="0.3"
+                  />
+                  <path
+                    d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                    fill="#151515"
+                    opacity="0.1"
+                  />
+                  <path
+                    d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                    fill="#151515"
+                    opacity="0.6"
+                  />
+                </g>
+                <defs>
+                  <clippath
+                    id="clip0_14895_64936"
+                  >
+                    <rect
+                      fill="#151515"
+                      height="16"
+                      transform="translate(7.14258 4.5)"
+                      width="9.71429"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              0.0001
+            </span>
+            <span
+              class="c25"
+            >
+              ($420.69)
+            </span>
+          </div>
+          <div
+            class="c26"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="c27"
+    >
+      <div
+        class="c28"
+      >
+        <button
+          aria-label="Open Menu"
+          class="c29"
+        />
+      </div>
+    </div>
+    <div
+      class="c30"
+    >
+      <button
+        aria-label="Hidden"
+        class="c31"
+      />
+    </div>
+    <div
+      class="c32"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<NftTile /> rendering Should show not for sale if price not provided 1`] = `
+<DocumentFragment>
+  .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c9:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c9:hover {
+  background-color: #EEEEEE;
+}
+
+.c10 {
+  width: 16px;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c13 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c13 img {
+  max-width: 100%;
+}
+
+.c17 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c18 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c19 {
+  font-weight: 400;
+}
+
+.c0 {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+}
+
+.c0:hover {
+  box-shadow: 0px 2px 24px RGBA(0,0,0,0.24);
+  -webkit-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+
+.c25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.c4 {
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #000000;
+}
+
+.c5 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  padding: 0;
+}
+
+.c8 {
+  line-height: 1.3125em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.c20 {
+  text-align: right;
+  float: right;
+  white-space: nowrap;
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 8px;
+}
+
+.c21 {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 36px;
+}
+
+.c7 a {
+  overflow: hidden;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c11 {
+  max-width: 100%;
+  font-size: 12px;
+  padding-right: 24px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  padding-top: 4px;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c23 {
+  line-height: 24px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+}
+
+.c15 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c16 {
+  border-radius: 50%;
+}
+
+.c14 {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="NFT Title link"
+      class="c1 c2"
+      href="/token/foo/bar"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="NFT Title image"
+          class="c5"
+          loading="lazy"
+          src="nft.png"
+        />
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8"
+          >
+            NFT Title
+          </div>
+          <button
+            aria-label="like (0)"
+            class="c9"
+          >
+            0
+            <img
+              alt="empty like icon"
+              class="c10"
+              src="[object Object]"
+            />
+          </button>
+        </div>
+        <div
+          class="c7"
+        >
+          <a
+            class="c1"
+            href="/profile/foo"
+          >
+            <div
+              class="c11"
+            >
+              <div
+                class="c12"
+              >
+                <div
+                  class="c13"
+                >
+                  <div
+                    class="c14"
+                    size="24"
+                  >
+                    <div
+                      class="c15 c16"
+                      size="24"
+                    />
+                  </div>
+                </div>
+                <p
+                  class="c17"
+                >
+                  <span
+                    class="c18 c19"
+                  >
+                    Creator name
+                  </span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <span
+            class="c20"
+          >
+            1 available
+          </span>
+        </div>
+        <hr
+          class="c21"
+        />
+        <div
+          class="c22"
+        >
+          <span
+            class="c23"
+          >
+            Not for sale
+          </span>
+          <div
+            class="c24"
+          >
+            <svg
+              fill="none"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                clip-path="url(#clip0_14895_64936)"
+              >
+                <path
+                  d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                  data-testid="icon-eth"
+                  fill="#151515"
+                  fill-opacity="0.8"
+                />
+                <path
+                  d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                  fill="#151515"
+                  fill-opacity="0.3"
+                />
+                <path
+                  d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                  fill="#151515"
+                />
+                <path
+                  d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                  fill="#151515"
+                  opacity="0.3"
+                />
+                <path
+                  d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                  fill="#151515"
+                  opacity="0.1"
+                />
+                <path
+                  d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                  fill="#151515"
+                  opacity="0.6"
+                />
+              </g>
+              <defs>
+                <clippath
+                  id="clip0_14895_64936"
+                >
+                  <rect
+                    fill="#151515"
+                    height="16"
+                    transform="translate(7.14258 4.5)"
+                    width="9.71429"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c25"
+    />
+  </div>
+</DocumentFragment>
+`;

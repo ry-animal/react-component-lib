@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackgroundImageInsert render with mobile image 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: -1;
+  background-color: #151515;
+}
+
+@media (max-width:1600px) {
+  .c1 {
+    width: 100%;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <img
+      class="c1"
+      src="[object Object]"
+    />
+  </div>
+</DocumentFragment>
+`;

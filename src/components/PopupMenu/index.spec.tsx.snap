@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopupMenu /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(./icon-url.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c1:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Open Menu"
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PopupMenu /> rendering Rendering matches snapshot (Circle Button) 1`] = `
+<DocumentFragment>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(./icon-url.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c1:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1:hover {
+  opacity: 100%;
+}
+
+.c2 {
+  width: 80%;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Circle Button"
+      class="c1"
+    >
+      <img
+        aria-label="Icon Button icon"
+        class="c2"
+        src="./icon-url.svg"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PopupMenu /> rendering Rendering matches snapshot (TextButton) 1`] = `
+<DocumentFragment>
+  .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 svg {
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 20px;
+}
+
+.c1 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 72px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #EEEEEE;
+}
+
+.c1:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c1:hover:not([disabled]),
+.c1:focus-visible:not([disabled]) {
+  background-color: #5F5F5F;
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Text Button"
+      class="c1"
+    >
+      <span
+        class="c2"
+      >
+        <div
+          alt="Text icon"
+          class="c3"
+        >
+          <svg
+            fill="white"
+            height="4"
+            viewBox="0 0 18 4"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+            <path
+              d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+            <path
+              d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z"
+              stroke="black"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+        Text
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PopupMenu /> rendering Rendering matches snapshot (disableCloseIcon) 1`] = `
+<DocumentFragment>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(./icon-url.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c1:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Open Menu"
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PopupMenu /> rendering Rendering matches snapshot (right aligned) 1`] = `
+<DocumentFragment>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(./icon-url.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c1:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c1:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.c0 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-label="Open Menu"
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;

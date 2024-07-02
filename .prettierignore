@@ -1,0 +1,9 @@
+build
+coverage
+# Helm templates are not actually YAML:
+deploy/charts/templates/**/*.yaml
+node_modules
+storybook-static
+CONTRIBUTING.md
+CHANGELOG.md
+.commitlintrc.js

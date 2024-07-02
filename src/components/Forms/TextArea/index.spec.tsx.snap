@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> as <TextArea /> rendering should render input and matches snapshot (disabled) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  position: relative;
+}
+
+.c1 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.c3 {
+  color: #151515;
+  background-color: #F9F9F9;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 4px;
+  border: 1px solid #151515;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.c3:disabled {
+  background: #EEEEEE;
+  border: 1px solid #A4A4A4;
+}
+
+.c3:invalid {
+  border: 2px solid #BC2828;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::-moz-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:-ms-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:focus {
+  outline: 1px solid #151515;
+}
+
+.c2 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="textArea"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <textarea
+        aria-invalid="false"
+        aria-label="Label"
+        class="c3"
+        disabled=""
+        id="textArea"
+        name="textArea"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> as <TextArea /> rendering should render input and matches snapshot (with error text) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  position: relative;
+}
+
+.c1 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.c3 {
+  color: #151515;
+  background-color: #F9F9F9;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 4px;
+  border: 1px solid #151515;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 80px;
+  border: 2px solid #BC2828;
+}
+
+.c3:disabled {
+  background: #EEEEEE;
+  border: 1px solid #A4A4A4;
+}
+
+.c3:invalid {
+  border: 2px solid #BC2828;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::-moz-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:-ms-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:focus {
+  outline: 1px solid #151515;
+}
+
+.c4 {
+  color: #BC2828;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.c2 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="textArea"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <textarea
+        aria-invalid="true"
+        aria-label="Label"
+        class="c3"
+        id="textArea"
+        name="textArea"
+      />
+    </div>
+    <span
+      class="c4"
+      role="alert"
+    >
+      Error
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> as <TextArea /> rendering should render input and matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  position: relative;
+}
+
+.c1 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.c3 {
+  color: #151515;
+  background-color: #F9F9F9;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 4px;
+  border: 1px solid #151515;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.c3:disabled {
+  background: #EEEEEE;
+  border: 1px solid #A4A4A4;
+}
+
+.c3:invalid {
+  border: 2px solid #BC2828;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::-moz-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:-ms-input-placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3::placeholder {
+  color: #A4A4A4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.c3:focus {
+  outline: 1px solid #151515;
+}
+
+.c2 {
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="textArea"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <textarea
+        aria-invalid="false"
+        aria-label="Label"
+        class="c3"
+        id="textArea"
+        name="textArea"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

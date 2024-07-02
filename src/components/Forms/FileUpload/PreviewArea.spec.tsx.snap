@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreviewArea /> rendering Default rendering matches snapshot (file not selected) 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #404040;
+  margin: 1em 30% 1em 30%;
+}
+
+<div
+    class="c0"
+  >
+    Drag and drop your media files here or click the “Select Media” button below
+  </div>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c0 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000000;
+}
+
+.c0:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c0:hover:not([disabled]),
+.c0:focus-visible:not([disabled]) {
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+<button
+    aria-label="Select Media"
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      Select Media
+    </span>
+  </button>
+  .c0 {
+  color: #A4A4A4;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin: 1em;
+}
+
+<div
+    class="c0"
+  >
+    Max file size: 1024MB
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PreviewArea /> rendering Default rendering matches snapshot (file selected) 1`] = `
+<DocumentFragment>
+  .c4 {
+  height: 150px;
+  width: 150px;
+}
+
+.c5 {
+  color: #404040;
+}
+
+.c3 {
+  display: inline-block;
+}
+
+.c1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.c2 {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.c0 {
+  margin: 1em;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <span
+      class="c1"
+    >
+      <button
+        aria-label="Discard"
+        class="c2"
+      >
+        <svg
+          fill="none"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18 6L6 18"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+          <path
+            d="M6 6L18 18"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+    </span>
+    <div
+      class="c3"
+      data-testid="blur"
+    >
+      <img
+        alt="A file has been selected"
+        class="c4"
+        src="[object Object]"
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      message.txt
+    </div>
+  </div>
+</DocumentFragment>
+`;

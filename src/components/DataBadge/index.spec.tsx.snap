@@ -1,0 +1,1337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DataBadge /> renders hexagon 1`] = `
+<DocumentFragment>
+  .c3 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-clip-path: url(#hexPath);
+  clip-path: url(#hexPath);
+}
+
+.c3:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c4 {
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 {
+  position: absolute;
+}
+
+.c5 {
+  -webkit-clip-path: url(#hexPath);
+  clip-path: url(#hexPath);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c6 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c7 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c8 {
+  font-weight: 400;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <svg
+          fill="none"
+          height="0"
+          viewBox="0 0 50 50"
+          width="0"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <clippath
+              clipPathUnits="objectBoundingBox"
+              id="hexPath"
+              transform="scale(0.02, 0.02)"
+            >
+              <path
+                d="M26.2,0.7l19.2,11.1c0.7,0.4,1.2,1.2,1.2,2.1v22.2c0,0.9-0.5,1.7-1.2,2.1L26.2,49.3c-0.7,0.4-1.7,0.4-2.4,0L4.5,38.2c-0.7-0.4-1.2-1.2-1.2-2.1V13.9c0-0.9,0.5-1.7,1.2-2.1L23.8,0.7C24.5,0.3,25.5,0.3,26.2,0.7z"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="c3"
+        size="40"
+      >
+        <div
+          class="c4 c5"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c6"
+    >
+      <span
+        class="c7 c8"
+      >
+        foo
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders inline 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 4px 8px 4px 0;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  padding-left: 12px;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders size l 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="80"
+      >
+        <div
+          class="c3 c4"
+          size="80"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders size m 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="60"
+      >
+        <div
+          class="c3 c4"
+          size="60"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders variant 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 400;
+  color: #ffffff;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders with border 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+  border: 1px solid #DBDBDB;
+  background-color: #FFFFFF;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders with external link 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  padding-right: 12px;
+  font-weight: 500;
+}
+
+.c8 {
+  padding-top: 16px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+    <span
+      class="c8"
+    >
+      <svg
+        fill="none"
+        height="14"
+        viewBox="0 0 14 13"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.911 11.5556H1.79991V1.44444H6.85547V0H1.79991C0.998247 0 0.355469 0.65 0.355469 1.44444V11.5556C0.355469 12.35 0.998247 13 1.79991 13H11.911C12.7055 13 13.3555 12.35 13.3555 11.5556V6.5H11.911V11.5556ZM8.29991 0V1.44444H10.8927L3.79325 8.54389L4.81158 9.56222L11.911 2.46278V5.05556H13.3555V0H8.29991Z"
+          fill="#151515"
+        />
+      </svg>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> renders without name 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DataBadge /> should render 1`] = `
+<DocumentFragment>
+  .c3 {
+  background-image: url("//source.unsplash.com/user/erondu/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4 {
+  border-radius: 50%;
+}
+
+.c2 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.c1 {
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 16px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.c6 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c7 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        size="40"
+      >
+        <div
+          class="c3 c4"
+          size="40"
+        />
+      </div>
+    </div>
+    <p
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        Foo
+      </span>
+      <span
+        class="c6 c7"
+      >
+        Bar
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;

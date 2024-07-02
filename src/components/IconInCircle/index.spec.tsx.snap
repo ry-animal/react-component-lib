@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> Black rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  height: 100%;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 35%;
+  height: 30%;
+}
+
+.c0 {
+  position: relative;
+  width: 102px;
+  height: 102px;
+  border: 0.2em solid black;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+}
+
+<div
+    class="c0"
+    color="black"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="icon"
+        class="c2"
+        src="icon.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Loader /> Green rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  height: 100%;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 35%;
+  height: 30%;
+}
+
+.c0 {
+  position: relative;
+  width: 102px;
+  height: 102px;
+  border: 0.2em solid green;
+  border-radius: 50%;
+  color: green;
+  text-align: center;
+}
+
+<div
+    class="c0"
+    color="green"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="icon"
+        class="c2"
+        src="icon.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EthAmount /> rendering Bold rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+<span
+    class="c0"
+  >
+    <svg
+      fill="none"
+      height="20"
+      viewBox="0 0 24 24"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-path="url(#clip0_14895_64936)"
+      >
+        <path
+          d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+          data-testid="icon-eth"
+          fill="#151515"
+          fill-opacity="0.8"
+        />
+        <path
+          d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+          fill="#151515"
+          fill-opacity="0.3"
+        />
+        <path
+          d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+          fill="#151515"
+        />
+        <path
+          d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+          fill="#151515"
+          opacity="0.3"
+        />
+        <path
+          d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+          fill="#151515"
+          opacity="0.1"
+        />
+        <path
+          d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+          fill="#151515"
+          opacity="0.6"
+        />
+      </g>
+      <defs>
+        <clippath
+          id="clip0_14895_64936"
+        >
+          <rect
+            fill="#151515"
+            height="16"
+            transform="translate(7.14258 4.5)"
+            width="9.71429"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    0.0001
+  </span>
+</DocumentFragment>
+`;
+
+exports[`<EthAmount /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+<span
+    class="c0"
+  >
+    <svg
+      fill="none"
+      height="20"
+      viewBox="0 0 24 24"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-path="url(#clip0_14895_64936)"
+      >
+        <path
+          d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+          data-testid="icon-eth"
+          fill="#151515"
+          fill-opacity="0.8"
+        />
+        <path
+          d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+          fill="#151515"
+          fill-opacity="0.3"
+        />
+        <path
+          d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+          fill="#151515"
+        />
+        <path
+          d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+          fill="#151515"
+          opacity="0.3"
+        />
+        <path
+          d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+          fill="#151515"
+          opacity="0.1"
+        />
+        <path
+          d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+          fill="#151515"
+          opacity="0.6"
+        />
+      </g>
+      <defs>
+        <clippath
+          id="clip0_14895_64936"
+        >
+          <rect
+            fill="#151515"
+            height="16"
+            transform="translate(7.14258 4.5)"
+            width="9.71429"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    0.0001
+  </span>
+</DocumentFragment>
+`;

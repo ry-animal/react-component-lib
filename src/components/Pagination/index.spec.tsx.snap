@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.c0 li a {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #F9F9F9;
+  border: 1px solid #DBDBDB;
+  border-radius: 4px;
+  min-width: 40px;
+  height: 40px;
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  -webkit-transition: border-color 0.4s ease-out;
+  transition: border-color 0.4s ease-out;
+  color: #151515;
+}
+
+.c0 li a:hover,
+.c0 li a:focus {
+  border-color: #A4A4A4;
+  background-color: #FFFFFF;
+  outline: none;
+}
+
+.c0 li.selected a {
+  border-color: #404040;
+  box-shadow: inset 0 0 0 1px #404040;
+  -webkit-transition: box-shadow 0.4s ease-out;
+  transition: box-shadow 0.4s ease-out;
+}
+
+.c0 .arrow a {
+  background: url([object Object]) center no-repeat;
+  background-size: 50%;
+}
+
+.c0 .arrow.disabled a {
+  opacity: 0.2;
+  border-color: #A4A4A4;
+  cursor: inherit;
+}
+
+.c0 .arrowNext a {
+  background: url([object Object]) center no-repeat;
+  background-size: 50%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+<div
+    class="c0"
+  >
+    <ul>
+      <li
+        class="arrow disabled"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Previous page"
+          class=" "
+          rel="prev"
+          role="button"
+          tabindex="-1"
+        />
+      </li>
+      <li
+        class="selected"
+      >
+        <a
+          aria-current="page"
+          aria-label="Page 1 is your current page"
+          rel="canonical"
+          role="button"
+          tabindex="-1"
+        >
+          1
+        </a>
+      </li>
+      <li>
+        <a
+          aria-label="Page 2"
+          rel="next"
+          role="button"
+          tabindex="0"
+        >
+          2
+        </a>
+      </li>
+      <li>
+        <a
+          aria-label="Page 3"
+          role="button"
+          tabindex="0"
+        >
+          3
+        </a>
+      </li>
+      <li
+        class="arrow arrowNext"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Next page"
+          class=""
+          rel="next"
+          role="button"
+          tabindex="0"
+        />
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Pagination /> Render dark mode 1`] = `"url([object Object]) center no-repeat"`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WithLink /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+<a
+    class="c0"
+    href="/foo/bar"
+  />
+</DocumentFragment>
+`;
+
+exports[`<WithLink /> rendering Renders children 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+<a
+    class="c0"
+    href="/foo/bar"
+  >
+    Child
+  </a>
+</DocumentFragment>
+`;
+
+exports[`<WithLink /> rendering Renders disabled styles (anchor) 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+<a
+    class="c0"
+    disabled=""
+    href="/foo/bar"
+    tabindex="-1"
+  />
+</DocumentFragment>
+`;
+
+exports[`<WithLink /> rendering Renders disabled styles (link) 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+<a
+    class="c0"
+    disabled=""
+    href="/foo/bar"
+    tabindex="-1"
+  />
+</DocumentFragment>
+`;
+
+exports[`<WithLink /> rendering Renders external link (anchor) 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+<a
+    class="c0"
+    href="/foo/bar"
+    target="_blank"
+  />
+</DocumentFragment>
+`;
+
+exports[`<WithLink /> rendering Renders router Link instead of anchor 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+<a
+    class="c0"
+    href="/foo/bar"
+  />
+</DocumentFragment>
+`;

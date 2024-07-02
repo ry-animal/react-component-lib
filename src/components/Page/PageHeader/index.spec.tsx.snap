@@ -1,0 +1,5060 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> render with light theme 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #ffffff;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.2);
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #C3C3C3;
+}
+
+.c7::-moz-placeholder {
+  color: #C3C3C3;
+}
+
+.c7:-ms-input-placeholder {
+  color: #C3C3C3;
+}
+
+.c7::placeholder {
+  color: #C3C3C3;
+}
+
+.c7:focus {
+  outline: 2px solid #EEEEEE;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-6-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-6-menu"
+            aria-labelledby="downshift-6-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-6-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#FFFFFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-6-label"
+          id="downshift-6-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="26"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="28"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+  .c0 {
+  margin: 80px 30px 80px 30px;
+  text-align: center;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    margin: 20px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c0 {
+    margin: 24px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        color="#ffffff"
+      >
+        Header
+      </h1>
+    </div>
+    <div
+      class="c1"
+    >
+      <h4
+        class="c3"
+        color="#ffffff"
+      >
+        Tagline
+      </h4>
+    </div>
+  </div>
+  .c0 {
+  display: none;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: block;
+    text-align: center;
+    margin: 160px 32px 0px 32px;
+  }
+}
+
+@media (max-width:414px) {
+  .c0 {
+    margin: 100px 16px 0px 16px;
+  }
+}
+
+@media (max-width:280px) {
+  .c0 {
+    margin: 32px 8px 0px 8px;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h3
+        class="c2"
+        color="#ffffff"
+      >
+        Header
+      </h3>
+    </div>
+    <div
+      class="c1"
+    >
+      <h6
+        class="c3"
+        color="#ffffff"
+      >
+        Tagline
+      </h6>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> render with simplyfyNav 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      />
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="30"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      />
+    </nav>
+  </div>
+  .c0 {
+  margin: 80px 30px 80px 30px;
+  text-align: center;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    margin: 20px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c0 {
+    margin: 24px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h1>
+    </div>
+    <div
+      class="c1"
+    >
+      <h4
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h4>
+    </div>
+  </div>
+  .c0 {
+  display: none;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: block;
+    text-align: center;
+    margin: 160px 32px 0px 32px;
+  }
+}
+
+@media (max-width:414px) {
+  .c0 {
+    margin: 100px 16px 0px 16px;
+  }
+}
+
+@media (max-width:280px) {
+  .c0 {
+    margin: 32px 8px 0px 8px;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h3
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h3>
+    </div>
+    <div
+      class="c1"
+    >
+      <h6
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h6>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render in logged in state 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c10 {
+  position: relative;
+}
+
+.c11 {
+  cursor: pointer;
+  position: relative;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c13 {
+  background-image: url("//source.unsplash.com/user/wsanter/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c14 {
+  border-radius: 50%;
+}
+
+.c12 {
+  position: relative;
+  height: 44px;
+  width: 44px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c12:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-2-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-2-menu"
+            aria-labelledby="downshift-2-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-2-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-2-label"
+          id="downshift-2-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+      <span
+        class="c10"
+      >
+        <span
+          aria-controls="9"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-pressed="false"
+          class="c11"
+          role="button"
+        >
+          <div
+            class="c12"
+            size="40"
+          >
+            <div
+              class="c13 c14"
+              size="40"
+            />
+          </div>
+        </span>
+      </span>
+    </div>
+  </nav>
+  .c11 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c7 {
+  background-image: url("//source.unsplash.com/user/wsanter/200x200");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c8 {
+  border-radius: 50%;
+}
+
+.c6 {
+  position: relative;
+  height: 28px;
+  width: 28px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c10 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c4 {
+  cursor: pointer;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c9 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c12 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+.c5 {
+  margin-top: -2px;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="10"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="11"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Account"
+          aria-pressed="false"
+          class="c4"
+          role="button"
+        >
+          <div
+            class="c5"
+          >
+            <div
+              class="c6"
+              size="24"
+            >
+              <div
+                class="c7 c8"
+                size="24"
+              />
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        class="c9"
+      >
+        <a
+          class="c10"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c11"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c12"
+      >
+        <button
+          aria-controls="12"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render with background image 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: -1;
+  background-color: #151515;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1600px) {
+  .c1 {
+    width: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <img
+      class="c1"
+      src="[object Object]"
+    />
+  </div>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:1600px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-0-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-0-menu"
+            aria-labelledby="downshift-0-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-0-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-0-label"
+          id="downshift-0-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1600px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="2"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="4"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render with login button 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c10 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #151515;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: #151515 0px 0px 0px 1px inset;
+}
+
+.c10:hover,
+.c10:focus-visible {
+  box-shadow: #151515 0px 0px 0px 2px inset;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-1-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-1-menu"
+            aria-labelledby="downshift-1-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-1-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-1-label"
+          id="downshift-1-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+      <button
+        class="c10"
+      >
+        Connect
+      </button>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="6"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="8"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render with title 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-4-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-4-menu"
+            aria-labelledby="downshift-4-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-4-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-4-label"
+          id="downshift-4-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="18"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="20"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+  .c0 {
+  margin: 80px 30px 80px 30px;
+  text-align: center;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    margin: 20px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c0 {
+    margin: 24px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h1>
+    </div>
+    <div
+      class="c1"
+    >
+      <h4
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h4>
+    </div>
+  </div>
+  .c0 {
+  display: none;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: block;
+    text-align: center;
+    margin: 160px 32px 0px 32px;
+  }
+}
+
+@media (max-width:414px) {
+  .c0 {
+    margin: 100px 16px 0px 16px;
+  }
+}
+
+@media (max-width:280px) {
+  .c0 {
+    margin: 32px 8px 0px 8px;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h3
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h3>
+    </div>
+    <div
+      class="c1"
+    >
+      <h6
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h6>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render with title and link 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-5-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-5-menu"
+            aria-labelledby="downshift-5-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-5-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-5-label"
+          id="downshift-5-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="22"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="24"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+  .c0 {
+  margin: 80px 30px 80px 30px;
+  text-align: center;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c4 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #EEEEEE;
+}
+
+.c4:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c4:hover:not([disabled]),
+.c4:focus-visible:not([disabled]) {
+  background-color: #5F5F5F;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:414px) {
+
+}
+
+@media (max-width:280px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    margin: 20px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c0 {
+    margin: 24px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h1
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h1>
+    </div>
+    <div
+      class="c1"
+    >
+      <h4
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h4>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        aria-label="Click here"
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          Click here
+        </span>
+      </button>
+    </div>
+  </div>
+  .c0 {
+  display: none;
+}
+
+.c1 {
+  margin: 20px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: unset;
+  -ms-flex: unset;
+  flex: unset;
+  line-height: 1;
+  gap: 8px;
+}
+
+.c4 {
+  text-align: center;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-height: 40px;
+  font-weight: 600;
+  padding: 0 28px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #EEEEEE;
+}
+
+.c4:disabled {
+  opacity: 20%;
+  cursor: default;
+  pointer-events: none;
+}
+
+.c4:hover:not([disabled]),
+.c4:focus-visible:not([disabled]) {
+  background-color: #5F5F5F;
+}
+
+.c2 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  -webkit-letter-spacing: -0.015em;
+  -moz-letter-spacing: -0.015em;
+  -ms-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
+}
+
+.c3 {
+  color: #000000;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+  .c0 {
+    display: block;
+    text-align: center;
+    margin: 160px 32px 0px 32px;
+  }
+}
+
+@media (max-width:414px) {
+  .c0 {
+    margin: 100px 16px 0px 16px;
+  }
+}
+
+@media (max-width:280px) {
+  .c0 {
+    margin: 32px 8px 0px 8px;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1279px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:1024px) {
+  .c2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width:767px) {
+  .c2 {
+    font-size: 24px;
+    line-height: 32px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <h3
+        class="c2"
+        color="#000000"
+      >
+        Header
+      </h3>
+    </div>
+    <div
+      class="c1"
+    >
+      <h6
+        class="c3"
+        color="#000000"
+      >
+        Tagline
+      </h6>
+    </div>
+    <div
+      class="c1"
+    >
+      <button
+        aria-label="Click here"
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          Click here
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PageHeader /> rendering render without background image 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c2 {
+  margin-right: 16px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 32px;
+  padding: 8px;
+  min-height: 64px;
+}
+
+.c4 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c9 {
+  color: #000000;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-right: 24px;
+  padding: 16px;
+  border-radius: 4px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c9:hover {
+  background-color: #DBDBDB;
+}
+
+.c7 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c7::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c7:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c7::placeholder {
+  color: #A4A4A4;
+}
+
+.c7:focus {
+  outline: 2px solid #404040;
+}
+
+.c8 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c6 {
+  position: relative;
+}
+
+.c5 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+@media (max-width:1024px) {
+  .c9 {
+    color: #000000;
+  }
+
+  .c9:hover {
+    background-color: transparent;
+  }
+}
+
+@media (max-width:1024px) {
+
+}
+
+<nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c4"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-owns="downshift-3-menu"
+          class="c6"
+          role="combobox"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-controls="downshift-3-menu"
+            aria-labelledby="downshift-3-label"
+            autocomplete="off"
+            class="c7"
+            id="downshift-3-input"
+            placeholder="Search GameStop NFT"
+            role="search"
+            type="search"
+            value=""
+            width="330px"
+          />
+          <div
+            class="c8"
+          >
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 17 17"
+              width="17"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+                fill="#151515"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-labelledby="downshift-3-label"
+          id="downshift-3-menu"
+          role="listbox"
+        />
+      </div>
+    </div>
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/explore"
+        >
+          <span
+            class="c9"
+          >
+            Explore
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/stats"
+        >
+          <span
+            class="c9"
+          >
+            Stats
+          </span>
+        </a>
+        <a
+          class="c3"
+          href="/learn"
+        >
+          <span
+            class="c9"
+          >
+            Learn
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  .c6 {
+  width: 170px;
+  max-width: 100%;
+}
+
+.c5 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.c3 {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr 2fr;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  gap: 16px;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: left;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: center;
+}
+
+.c7 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  min-width: 30px;
+  text-align: right;
+}
+
+.c0 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <nav
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <button
+          aria-controls="14"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Menu"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 20 14"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M0 5C0 4.44772 0.447715 4 1 4H19C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H1C0.447715 6 0 5.55228 0 5Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 9C0 8.44772 0.447715 8 1 8H19C19.5523 8 20 8.44772 20 9C20 9.55228 19.5523 10 19 10H1C0.447715 10 0 9.55228 0 9Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="c2"
+      />
+      <div
+        class="c4"
+      >
+        <a
+          class="c5"
+          href="/"
+        >
+          <img
+            alt="Gamestop NFT Logo"
+            class="c6"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+      <div
+        class="c7"
+      >
+        <button
+          aria-controls="16"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Search"
+          aria-pressed="false"
+          class="c3"
+          role="button"
+        >
+          <svg
+            fill="none"
+            height="17"
+            viewBox="0 0 17 17"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+              fill="black"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

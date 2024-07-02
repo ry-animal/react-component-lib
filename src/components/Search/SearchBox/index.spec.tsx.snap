@@ -1,0 +1,695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> event handling result can be clicked 1`] = `
+<span
+  aria-labelledby="downshift-75-label"
+  id="downshift-75-menu"
+  role="listbox"
+/>
+`;
+
+exports[`<SearchBox /> event handling suggestion can be clicked 1`] = `
+.c1 {
+  color: #5F5F5F;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 24px 8px 24px;
+}
+
+.c3 {
+  background-color: auto;
+  color: #404040;
+  font-size: 14px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.c2 {
+  background-color: #F9F9F9;
+  color: #404040;
+  font-size: 14px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  padding-bottom: 12px;
+  top: 64px;
+  z-index: 15;
+  position: absolute;
+  width: 480px;
+}
+
+<span
+  aria-labelledby="downshift-88-label"
+  id="downshift-88-menu"
+  role="listbox"
+>
+  <div
+    class="c0"
+  >
+    <div
+      aria-selected="false"
+      disabled=""
+      id="downshift-88-item-0"
+      role="option"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        Top Searches
+      </div>
+    </div>
+    <div
+      aria-selected="true"
+      id="downshift-88-item-1"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-88-item-2"
+      role="option"
+    >
+      <div
+        class="c3"
+      >
+        bar
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (closed) 1`] = `
+<DocumentFragment>
+  .c2 {
+  background-color: rgba(255,255,255,0.9);
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c2::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c2:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c2::placeholder {
+  color: #A4A4A4;
+}
+
+.c2:focus {
+  outline: 2px solid #404040;
+}
+
+.c3 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c0 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-owns="downshift-0-menu"
+      class="c1"
+      role="combobox"
+    >
+      <input
+        aria-autocomplete="list"
+        aria-controls="downshift-0-menu"
+        aria-labelledby="downshift-0-label"
+        autocomplete="off"
+        class="c2"
+        id="downshift-0-input"
+        placeholder="Search GameStop NFT"
+        role="search"
+        type="search"
+        value=""
+        width="330px"
+      />
+      <div
+        class="c3"
+      >
+        <svg
+          fill="none"
+          height="17"
+          viewBox="0 0 17 17"
+          width="17"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+            fill="#151515"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      aria-labelledby="downshift-0-label"
+      id="downshift-0-menu"
+      role="listbox"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (custom backgroundColor) 1`] = `
+<DocumentFragment>
+  .c2 {
+  background-color: pink;
+  color: #151515;
+  border-radius: 4px;
+  font-size: 14px;
+  padding-left: 48px;
+  padding-right: 12px;
+  width: 330px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  border-width: 0;
+  height: 48px;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c2::-moz-placeholder {
+  color: #A4A4A4;
+}
+
+.c2:-ms-input-placeholder {
+  color: #A4A4A4;
+}
+
+.c2::placeholder {
+  color: #A4A4A4;
+}
+
+.c2:focus {
+  outline: 2px solid #404040;
+}
+
+.c3 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 16px;
+  width: 16px;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c0 {
+  font-family: 'Poppins',sans-serif;
+  margin-left: 8px;
+  position: relative;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      aria-expanded="false"
+      aria-haspopup="listbox"
+      aria-owns="downshift-74-menu"
+      class="c1"
+      role="combobox"
+    >
+      <input
+        aria-autocomplete="list"
+        aria-controls="downshift-74-menu"
+        aria-labelledby="downshift-74-label"
+        autocomplete="off"
+        class="c2"
+        id="downshift-74-input"
+        placeholder="Search GameStop NFT"
+        role="search"
+        type="search"
+        value=""
+        width="330px"
+      />
+      <div
+        class="c3"
+      >
+        <svg
+          fill="none"
+          height="17"
+          viewBox="0 0 17 17"
+          width="17"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M10.9212 12.0255C9.7923 12.9031 8.37376 13.4256 6.83317 13.4256C3.15127 13.4256 0.166504 10.4409 0.166504 6.75895C0.166504 3.07705 3.15127 0.0922852 6.83317 0.0922852C10.5151 0.0922852 13.4998 3.07705 13.4998 6.75895C13.4998 8.29954 12.9773 9.71809 12.0997 10.847L16.5891 15.3364C16.9145 15.6618 16.9145 16.1894 16.5891 16.5149C16.2637 16.8403 15.736 16.8403 15.4106 16.5149L10.9212 12.0255ZM11.8332 6.75895C11.8332 9.52038 9.59459 11.759 6.83317 11.759C4.07175 11.759 1.83317 9.52038 1.83317 6.75895C1.83317 3.99753 4.07175 1.75895 6.83317 1.75895C9.59459 1.75895 11.8332 3.99753 11.8332 6.75895Z"
+            fill="#151515"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      aria-labelledby="downshift-74-label"
+      id="downshift-74-menu"
+      role="listbox"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (opened then closed) 1`] = `
+<span
+  aria-labelledby="downshift-63-label"
+  id="downshift-63-menu"
+  role="listbox"
+/>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (opened with no results) 1`] = `
+.c1 {
+  color: #5F5F5F;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 24px 8px 24px;
+}
+
+.c2 {
+  background-color: auto;
+  color: #404040;
+  font-size: 14px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  padding-bottom: 12px;
+  top: 64px;
+  z-index: 15;
+  position: absolute;
+  width: 480px;
+}
+
+<span
+  aria-labelledby="downshift-15-label"
+  id="downshift-15-menu"
+  role="listbox"
+>
+  <div
+    class="c0"
+  >
+    <div
+      aria-selected="false"
+      disabled=""
+      id="downshift-15-item-0"
+      role="option"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        Top Searches
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-15-item-1"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-15-item-2"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        bar
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (opened with popular searches) 1`] = `
+.c1 {
+  color: #5F5F5F;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 24px 8px 24px;
+}
+
+.c2 {
+  background-color: auto;
+  color: #404040;
+  font-size: 14px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  padding-bottom: 12px;
+  top: 64px;
+  z-index: 15;
+  position: absolute;
+  width: 480px;
+}
+
+<span
+  aria-labelledby="downshift-1-label"
+  id="downshift-1-menu"
+  role="listbox"
+>
+  <div
+    class="c0"
+  >
+    <div
+      aria-selected="false"
+      disabled=""
+      id="downshift-1-item-0"
+      role="option"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        Top Searches
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-1-item-1"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        foo
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-1-item-2"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        bar
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`<SearchBox /> rendering should render according to snapshot (opened with results) 1`] = `
+.c1 {
+  color: #5F5F5F;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 24px 8px 24px;
+}
+
+.c2 {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  background-color: auto;
+  gap: 1px 12px;
+  padding: 8px 24px;
+}
+
+.c4 {
+  color: #404040;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3 {
+  border-radius: 4px;
+  grid-row: 1 / span 2;
+  height: 40px;
+  width: 40px;
+}
+
+.c5 {
+  color: #5F5F5F;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  padding-bottom: 12px;
+  top: 64px;
+  z-index: 15;
+  position: absolute;
+  width: 480px;
+}
+
+<span
+  aria-labelledby="downshift-5-label"
+  id="downshift-5-menu"
+  role="listbox"
+>
+  <div
+    class="c0"
+  >
+    <div
+      aria-selected="false"
+      disabled=""
+      id="downshift-5-item-0"
+      role="option"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        Collections
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-1"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test qui
+        </div>
+        <div
+          class="c5"
+        >
+          Ad dolor consequat ut eiusmod culpa minim qui consequat elit.
+        </div>
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-2"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test consectetur
+        </div>
+        <div
+          class="c5"
+        >
+          Magna nisi consectetur ipsum enim pariatur culpa duis excepteur.
+        </div>
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-3"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test irure
+        </div>
+        <div
+          class="c5"
+        >
+          Dolore cillum aliqua deserunt aute culpa velit id aute dolore pariatur labore labore.
+        </div>
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      disabled=""
+      id="downshift-5-item-4"
+      role="option"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        NFTs
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-5"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test laboris
+        </div>
+        <div
+          class="c5"
+        >
+          Officia reprehenderit sunt nostrud officia elit Lorem anim magna.
+        </div>
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-6"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test nisi
+        </div>
+        <div
+          class="c5"
+        >
+          Aliquip sit non commodo ad aute ex eiusmod magna sit eu sit id et.
+        </div>
+      </div>
+    </div>
+    <div
+      aria-selected="false"
+      id="downshift-5-item-7"
+      role="option"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          class="c3"
+          src="//source.unsplash.com/user/erondu/400x600"
+        />
+        <div
+          class="c4"
+        >
+          test ullamco
+        </div>
+        <div
+          class="c5"
+        >
+          Culpa ullamco cillum ex amet occaecat reprehenderit enim dolore velit dolore in dolore mollit velit.
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;

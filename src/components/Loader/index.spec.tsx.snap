@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 37px;
+  position: relative;
+}
+
+.c1 {
+  background-color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+  border-left: 3px solid #5F5F5F;
+  border-top: 3px solid #5F5F5F;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  -webkit-animation: 1s fvtopB linear infinite;
+  animation: 1s fvtopB linear infinite;
+  box-sizing: border-box;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Loader /> large icon rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 30%;
+}
+
+.c3 {
+  width: 100%;
+  pointer-events: none;
+}
+
+.c0 {
+  width: 122px;
+  position: relative;
+}
+
+.c1 {
+  background-color: #EEEEEE;
+  border: 6px solid #EEEEEE;
+  border-left: 6px solid #5F5F5F;
+  border-top: 6px solid #5F5F5F;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  -webkit-animation: 1s fvtopB linear infinite;
+  animation: 1s fvtopB linear infinite;
+  box-sizing: border-box;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    >
+      <img
+        alt="Icon"
+        class="c3"
+        src="icon.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Loader /> large rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 122px;
+  position: relative;
+}
+
+.c1 {
+  background-color: #EEEEEE;
+  border: 6px solid #EEEEEE;
+  border-left: 6px solid #5F5F5F;
+  border-top: 6px solid #5F5F5F;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  -webkit-animation: 1s fvtopB linear infinite;
+  animation: 1s fvtopB linear infinite;
+  box-sizing: border-box;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Loader /> small icon rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 50%;
+}
+
+.c3 {
+  width: 100%;
+  pointer-events: none;
+}
+
+.c0 {
+  width: 37px;
+  position: relative;
+}
+
+.c1 {
+  background-color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+  border-left: 3px solid #5F5F5F;
+  border-top: 3px solid #5F5F5F;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  -webkit-animation: 1s fvtopB linear infinite;
+  animation: 1s fvtopB linear infinite;
+  box-sizing: border-box;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <div
+      class="c2"
+    >
+      <img
+        alt="Icon"
+        class="c3"
+        src="icon.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

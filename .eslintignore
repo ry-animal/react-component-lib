@@ -1,0 +1,8 @@
+build
+coverage
+node_modules
+storybook-static
+*.snap
+jest.setup.js
+jest.snapshotResolve.js
+__mocks__/

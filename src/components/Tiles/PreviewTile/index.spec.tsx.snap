@@ -1,0 +1,1982 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PreviewTile /> rendering Default rendering matches snapshot (multiple items) 1`] = `
+<DocumentFragment>
+  .c12 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c11 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c5 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6 {
+  border-radius: 50%;
+}
+
+.c4 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 100%;
+  color: #151515;
+  gap: 8px;
+  padding: auto;
+}
+
+.c3:hover {
+  background-color: auto;
+  border-radius: 4px;
+}
+
+.c7 {
+  color: #151515;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  border: 1px solid #EEEEEE;
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c8 {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-image: url(nft.png);
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.c9 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3125em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.c10 {
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.c15 {
+  all: unset;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c16 {
+  padding: 0 12px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          aria-label="View profile"
+          class="c3"
+        >
+          <div
+            class="c4"
+            size="36"
+          >
+            <div
+              class="c5 c6"
+              size="36"
+            />
+          </div>
+          <div
+            class="c7"
+            title="Creator name"
+          >
+            Creator name
+          </div>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Amount: 420
+        </span>
+        NFT Title
+      </div>
+      <div
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_14895_64936)"
+            >
+              <path
+                d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                data-testid="icon-eth"
+                fill="#151515"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                fill="#151515"
+                fill-opacity="0.3"
+              />
+              <path
+                d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                fill="#151515"
+              />
+              <path
+                d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                fill="#151515"
+                opacity="0.3"
+              />
+              <path
+                d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                fill="#151515"
+                opacity="0.1"
+              />
+              <path
+                d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                fill="#151515"
+                opacity="0.6"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_14895_64936"
+              >
+                <rect
+                  fill="#151515"
+                  height="16"
+                  transform="translate(7.14258 4.5)"
+                  width="9.71429"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          0.0001
+        </span>
+        <span
+          class="c13"
+        >
+          ($420.69)
+        </span>
+      </div>
+    </div>
+    <div
+      class="c14"
+    >
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="13"
+          viewBox="0 0 18 13"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 6.30185C1 6.30185 3.88139 0.539062 8.92383 0.539062C13.9663 0.539062 16.8477 6.30185 16.8477 6.30185C16.8477 6.30185 13.9663 12.0646 8.92383 12.0646C3.88139 12.0646 1 6.30185 1 6.30185Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.92276 8.46271C10.1163 8.46271 11.0838 7.49518 11.0838 6.30167C11.0838 5.10816 10.1163 4.14062 8.92276 4.14062C7.72925 4.14062 6.76172 5.10816 6.76172 6.30167C6.76172 7.49518 7.72925 8.46271 8.92276 8.46271Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Preview
+        </div>
+      </button>
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 15 15"
+          width="15"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.01223 2.41797H2.33605C1.98171 2.41797 1.64188 2.55873 1.39132 2.80929C1.14076 3.05985 1 3.39968 1 3.75402V13.1064C1 13.4607 1.14076 13.8006 1.39132 14.0511C1.64188 14.3017 1.98171 14.4424 2.33605 14.4424H11.6884C12.0428 14.4424 12.3826 14.3017 12.6331 14.0511C12.8837 13.8006 13.0245 13.4607 13.0245 13.1064V8.4302"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12.0221 1.41506C12.2878 1.1493 12.6483 1 13.0241 1C13.4 1 13.7604 1.1493 14.0262 1.41506C14.2919 1.68082 14.4412 2.04126 14.4412 2.4171C14.4412 2.79293 14.2919 3.15338 14.0262 3.41913L7.67991 9.76538L5.00781 10.4334L5.67584 7.7613L12.0221 1.41506Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Edit
+        </div>
+      </button>
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 14 15"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 3.60156H2.3H12.7"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M4.25078 3.6V2.3C4.25078 1.95522 4.38775 1.62456 4.63154 1.38076C4.87534 1.13696 5.206 1 5.55078 1H8.15078C8.49556 1 8.82622 1.13696 9.07002 1.38076C9.31382 1.62456 9.45078 1.95522 9.45078 2.3V3.6M11.4008 3.6V12.7C11.4008 13.0448 11.2638 13.3754 11.02 13.6192C10.7762 13.863 10.4456 14 10.1008 14H3.60078C3.256 14 2.92534 13.863 2.68154 13.6192C2.43775 13.3754 2.30078 13.0448 2.30078 12.7V3.6H11.4008Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.55078 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.14844 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Delete
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PreviewTile /> rendering Default rendering matches snapshot (not for sale) 1`] = `
+<DocumentFragment>
+  .c12 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6 {
+  border-radius: 50%;
+}
+
+.c4 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 100%;
+  color: #151515;
+  gap: 8px;
+  padding: auto;
+}
+
+.c3:hover {
+  background-color: auto;
+  border-radius: 4px;
+}
+
+.c7 {
+  color: #151515;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  border: 1px solid #EEEEEE;
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c8 {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-image: url(nft.png);
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.c9 {
+  font-size: 14px;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.c10 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3125em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.c11 {
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          aria-label="View profile"
+          class="c3"
+        >
+          <div
+            class="c4"
+            size="36"
+          >
+            <div
+              class="c5 c6"
+              size="36"
+            />
+          </div>
+          <div
+            class="c7"
+            title="Creator name"
+          >
+            Creator name
+          </div>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+      <span
+        class="c9"
+      >
+        Collection Name
+      </span>
+      <div
+        class="c10"
+      >
+        <span
+          class="c11"
+        >
+          Amount: 420
+        </span>
+        NFT Title
+      </div>
+      <div
+        class="c12"
+      >
+        Not for sale
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PreviewTile /> rendering Default rendering matches snapshot (with subtitle) 1`] = `
+<DocumentFragment>
+  .c13 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c12 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c14 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c5 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6 {
+  border-radius: 50%;
+}
+
+.c4 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 100%;
+  color: #151515;
+  gap: 8px;
+  padding: auto;
+}
+
+.c3:hover {
+  background-color: auto;
+  border-radius: 4px;
+}
+
+.c7 {
+  color: #151515;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  border: 1px solid #EEEEEE;
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c8 {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-image: url(nft.png);
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.c9 {
+  font-size: 14px;
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.c10 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3125em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.c11 {
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.c16 {
+  all: unset;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  padding: 0 12px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          aria-label="View profile"
+          class="c3"
+        >
+          <div
+            class="c4"
+            size="36"
+          >
+            <div
+              class="c5 c6"
+              size="36"
+            />
+          </div>
+          <div
+            class="c7"
+            title="Creator name"
+          >
+            Creator name
+          </div>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+      <span
+        class="c9"
+      >
+        Collection Name
+      </span>
+      <div
+        class="c10"
+      >
+        <span
+          class="c11"
+        >
+          Amount: 420
+        </span>
+        NFT Title
+      </div>
+      <div
+        class="c12"
+      >
+        <span
+          class="c13"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_14895_64936)"
+            >
+              <path
+                d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                data-testid="icon-eth"
+                fill="#151515"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                fill="#151515"
+                fill-opacity="0.3"
+              />
+              <path
+                d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                fill="#151515"
+              />
+              <path
+                d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                fill="#151515"
+                opacity="0.3"
+              />
+              <path
+                d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                fill="#151515"
+                opacity="0.1"
+              />
+              <path
+                d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                fill="#151515"
+                opacity="0.6"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_14895_64936"
+              >
+                <rect
+                  fill="#151515"
+                  height="16"
+                  transform="translate(7.14258 4.5)"
+                  width="9.71429"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          0.0001
+        </span>
+        <span
+          class="c14"
+        >
+          ($420.69)
+        </span>
+      </div>
+    </div>
+    <div
+      class="c15"
+    >
+      <button
+        class="c16"
+      >
+        <svg
+          fill="none"
+          height="13"
+          viewBox="0 0 18 13"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 6.30185C1 6.30185 3.88139 0.539062 8.92383 0.539062C13.9663 0.539062 16.8477 6.30185 16.8477 6.30185C16.8477 6.30185 13.9663 12.0646 8.92383 12.0646C3.88139 12.0646 1 6.30185 1 6.30185Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.92276 8.46271C10.1163 8.46271 11.0838 7.49518 11.0838 6.30167C11.0838 5.10816 10.1163 4.14062 8.92276 4.14062C7.72925 4.14062 6.76172 5.10816 6.76172 6.30167C6.76172 7.49518 7.72925 8.46271 8.92276 8.46271Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c17"
+        >
+          Preview
+        </div>
+      </button>
+      <button
+        class="c16"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 15 15"
+          width="15"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.01223 2.41797H2.33605C1.98171 2.41797 1.64188 2.55873 1.39132 2.80929C1.14076 3.05985 1 3.39968 1 3.75402V13.1064C1 13.4607 1.14076 13.8006 1.39132 14.0511C1.64188 14.3017 1.98171 14.4424 2.33605 14.4424H11.6884C12.0428 14.4424 12.3826 14.3017 12.6331 14.0511C12.8837 13.8006 13.0245 13.4607 13.0245 13.1064V8.4302"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12.0221 1.41506C12.2878 1.1493 12.6483 1 13.0241 1C13.4 1 13.7604 1.1493 14.0262 1.41506C14.2919 1.68082 14.4412 2.04126 14.4412 2.4171C14.4412 2.79293 14.2919 3.15338 14.0262 3.41913L7.67991 9.76538L5.00781 10.4334L5.67584 7.7613L12.0221 1.41506Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c17"
+        >
+          Edit
+        </div>
+      </button>
+      <button
+        class="c16"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 14 15"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 3.60156H2.3H12.7"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M4.25078 3.6V2.3C4.25078 1.95522 4.38775 1.62456 4.63154 1.38076C4.87534 1.13696 5.206 1 5.55078 1H8.15078C8.49556 1 8.82622 1.13696 9.07002 1.38076C9.31382 1.62456 9.45078 1.95522 9.45078 2.3V3.6M11.4008 3.6V12.7C11.4008 13.0448 11.2638 13.3754 11.02 13.6192C10.7762 13.863 10.4456 14 10.1008 14H3.60078C3.256 14 2.92534 13.863 2.68154 13.6192C2.43775 13.3754 2.30078 13.0448 2.30078 12.7V3.6H11.4008Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.55078 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.14844 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c17"
+        >
+          Delete
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PreviewTile /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  .c12 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c11 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c5 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6 {
+  border-radius: 50%;
+}
+
+.c4 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 100%;
+  color: #151515;
+  gap: 8px;
+  padding: auto;
+}
+
+.c3:hover {
+  background-color: auto;
+  border-radius: 4px;
+}
+
+.c7 {
+  color: #151515;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  border: 1px solid #EEEEEE;
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c8 {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-image: url(nft.png);
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.c9 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3125em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.c10 {
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.c15 {
+  all: unset;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c16 {
+  padding: 0 12px;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          aria-label="View profile"
+          class="c3"
+        >
+          <div
+            class="c4"
+            size="36"
+          >
+            <div
+              class="c5 c6"
+              size="36"
+            />
+          </div>
+          <div
+            class="c7"
+            title="Creator name"
+          >
+            Creator name
+          </div>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Amount: 1
+        </span>
+        NFT Title
+      </div>
+      <div
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_14895_64936)"
+            >
+              <path
+                d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                data-testid="icon-eth"
+                fill="#151515"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                fill="#151515"
+                fill-opacity="0.3"
+              />
+              <path
+                d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                fill="#151515"
+              />
+              <path
+                d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                fill="#151515"
+                opacity="0.3"
+              />
+              <path
+                d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                fill="#151515"
+                opacity="0.1"
+              />
+              <path
+                d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                fill="#151515"
+                opacity="0.6"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_14895_64936"
+              >
+                <rect
+                  fill="#151515"
+                  height="16"
+                  transform="translate(7.14258 4.5)"
+                  width="9.71429"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          0.0001
+        </span>
+        <span
+          class="c13"
+        >
+          ($420.69)
+        </span>
+      </div>
+    </div>
+    <div
+      class="c14"
+    >
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="13"
+          viewBox="0 0 18 13"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 6.30185C1 6.30185 3.88139 0.539062 8.92383 0.539062C13.9663 0.539062 16.8477 6.30185 16.8477 6.30185C16.8477 6.30185 13.9663 12.0646 8.92383 12.0646C3.88139 12.0646 1 6.30185 1 6.30185Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.92276 8.46271C10.1163 8.46271 11.0838 7.49518 11.0838 6.30167C11.0838 5.10816 10.1163 4.14062 8.92276 4.14062C7.72925 4.14062 6.76172 5.10816 6.76172 6.30167C6.76172 7.49518 7.72925 8.46271 8.92276 8.46271Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Preview
+        </div>
+      </button>
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 15 15"
+          width="15"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.01223 2.41797H2.33605C1.98171 2.41797 1.64188 2.55873 1.39132 2.80929C1.14076 3.05985 1 3.39968 1 3.75402V13.1064C1 13.4607 1.14076 13.8006 1.39132 14.0511C1.64188 14.3017 1.98171 14.4424 2.33605 14.4424H11.6884C12.0428 14.4424 12.3826 14.3017 12.6331 14.0511C12.8837 13.8006 13.0245 13.4607 13.0245 13.1064V8.4302"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M12.0221 1.41506C12.2878 1.1493 12.6483 1 13.0241 1C13.4 1 13.7604 1.1493 14.0262 1.41506C14.2919 1.68082 14.4412 2.04126 14.4412 2.4171C14.4412 2.79293 14.2919 3.15338 14.0262 3.41913L7.67991 9.76538L5.00781 10.4334L5.67584 7.7613L12.0221 1.41506Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Edit
+        </div>
+      </button>
+      <button
+        class="c15"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 14 15"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 3.60156H2.3H12.7"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M4.25078 3.6V2.3C4.25078 1.95522 4.38775 1.62456 4.63154 1.38076C4.87534 1.13696 5.206 1 5.55078 1H8.15078C8.49556 1 8.82622 1.13696 9.07002 1.38076C9.31382 1.62456 9.45078 1.95522 9.45078 2.3V3.6M11.4008 3.6V12.7C11.4008 13.0448 11.2638 13.3754 11.02 13.6192C10.7762 13.863 10.4456 14 10.1008 14H3.60078C3.256 14 2.92534 13.863 2.68154 13.6192C2.43775 13.3754 2.30078 13.0448 2.30078 12.7V3.6H11.4008Z"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M5.55078 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.14844 6.85156V10.7516"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div
+          class="c16"
+        >
+          Delete
+        </div>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<PreviewTile /> rendering Does not render buttons if actions not provided 1`] = `
+<DocumentFragment>
+  .c12 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #151515;
+}
+
+.c11 {
+  color: #151515;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c13 {
+  color: #404040;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.c5 {
+  background-image: url("creator.png");
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 36px;
+  width: 36px;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c6 {
+  border-radius: 50%;
+}
+
+.c4 {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: inherit;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 100%;
+  color: #151515;
+  gap: 8px;
+  padding: auto;
+}
+
+.c3:hover {
+  background-color: auto;
+  border-radius: 4px;
+}
+
+.c7 {
+  color: #151515;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  border: 1px solid #EEEEEE;
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  padding: 16px;
+}
+
+.c8 {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  background-image: url(nft.png);
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.c9 {
+  color: #151515;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3125em;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.c10 {
+  color: #5F5F5F;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  float: right;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          aria-label="View profile"
+          class="c3"
+        >
+          <div
+            class="c4"
+            size="36"
+          >
+            <div
+              class="c5 c6"
+              size="36"
+            />
+          </div>
+          <div
+            class="c7"
+            title="Creator name"
+          >
+            Creator name
+          </div>
+        </div>
+      </div>
+      <div
+        class="c8"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Amount: 420
+        </span>
+        NFT Title
+      </div>
+      <div
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          <svg
+            fill="none"
+            height="20"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_14895_64936)"
+            >
+              <path
+                d="M12 16.4939V20.5L16.8571 13.5929L12 16.4939Z"
+                data-testid="icon-eth"
+                fill="#151515"
+                fill-opacity="0.8"
+              />
+              <path
+                d="M12 10.4252V15.5671L16.8571 12.6584L12 10.4252Z"
+                fill="#151515"
+                fill-opacity="0.3"
+              />
+              <path
+                d="M12 4.5V10.4252L16.8571 12.6584L12 4.5Z"
+                fill="#151515"
+              />
+              <path
+                d="M11.9997 16.4939V20.5L7.14258 13.5929L11.9997 16.4939Z"
+                fill="#151515"
+                opacity="0.3"
+              />
+              <path
+                d="M11.9997 10.4252V15.5671L7.14258 12.6584L11.9997 10.4252Z"
+                fill="#151515"
+                opacity="0.1"
+              />
+              <path
+                d="M11.9997 4.5V10.4252L7.14258 12.6584L11.9997 4.5Z"
+                fill="#151515"
+                opacity="0.6"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_14895_64936"
+              >
+                <rect
+                  fill="#151515"
+                  height="16"
+                  transform="translate(7.14258 4.5)"
+                  width="9.71429"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          0.0001
+        </span>
+        <span
+          class="c13"
+        >
+          ($420.69)
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

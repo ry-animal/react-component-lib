@@ -1,0 +1,1062 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DrawerMenu /> rendering should match snapshot (menuTitle) 1`] = `
+<DocumentFragment>
+  .c4 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c4:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c4:hover {
+  opacity: 100%;
+}
+
+.c9 {
+  color: #151515;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c3 {
+  margin: 32px;
+}
+
+.c5 {
+  background: #F9F9F9;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 {
+  padding: 40px 8px 24px 8px;
+}
+
+.c6 {
+  background: #EEEEEE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: overlay;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+  width: 325px;
+  padding: 0 16px;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 325px;
+  padding: 0 16px;
+}
+
+.c14 {
+  width: 650px;
+  padding: 0 64px;
+}
+
+.c13 {
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: overlay;
+  border: 2px solid transparent;
+}
+
+.c13:focus-visible {
+  border: 2px solid #151515;
+}
+
+.c16 {
+  width: 650px;
+  padding: 0 64px;
+  color: #151515;
+}
+
+.c15 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.75rem;
+  margin: 0;
+  color: #151515;
+  padding: 24px 0 32px 0;
+}
+
+.c12 {
+  color: #151515;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  cursor: default;
+  color: #5F5F5F;
+  background: #FFFFFF;
+  font-weight: 600;
+}
+
+.c12 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.c12:focus-visible {
+  outline: 2px solid #151515;
+}
+
+.c11 {
+  color: #151515;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.c11 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.c11:focus-visible {
+  outline: 2px solid #151515;
+}
+
+.c11:hover {
+  background-color: #DBDBDB;
+}
+
+@media (max-width:767px) {
+  .c9 {
+    font-size: 16px;
+    line-height: 20px;
+    -webkit-letter-spacing: 0em;
+    -moz-letter-spacing: 0em;
+    -ms-letter-spacing: 0em;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width:1024px) {
+  .c3 {
+    margin: 32px 16px;
+  }
+}
+
+@media (max-width:767px) {
+  .c5 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 {
+    text-align: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    overflow-y: unset;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    -webkit-transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    background: #F9F9F9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    overflow-y: overlay;
+  }
+}
+
+@media (max-width:1279px) {
+  .c10 {
+    width: 275px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c10 {
+    width: 225px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    width: 100%;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c7 {
+    width: 275px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c7 {
+    width: 225px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    width: 100%;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    margin: 32px 0;
+  }
+}
+
+@media (max-width:1279px) {
+  .c14 {
+    width: 550px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c14 {
+    width: 425px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c14 {
+    width: auto;
+  }
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:767px) {
+  .c13 {
+    overflow-y: unset;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    -webkit-transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@media (max-width:1279px) {
+  .c16 {
+    width: 550px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c16 {
+    width: 425px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c16 {
+    width: auto;
+  }
+}
+
+@media (max-width:767px) {
+  .c16 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-y: overlay;
+  }
+}
+
+@media (max-width:767px) {
+  .c15 {
+    padding: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    padding: 16px 0;
+    color: #151515;
+    background: transparent;
+    font-weight: 500;
+  }
+}
+
+@media (max-width:767px) {
+  .c11 {
+    padding: 16px 0;
+    color: #151515;
+    background: transparent;
+    font-weight: 500;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1 c2"
+    >
+      <div
+        class="c3"
+      >
+        <button
+          aria-label="close"
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+          data-testid="menu-options"
+        >
+          <div
+            class="c7"
+          >
+            <div
+              class="c8"
+              id="menu-title"
+            >
+              <p
+                class="c9"
+              >
+                Collection Settings
+              </p>
+            </div>
+          </div>
+          <div
+            aria-labelledby="menu-title"
+            aria-orientation="vertical"
+            class="c10"
+            role="tablist"
+          >
+            <button
+              aria-controls="panel-0"
+              aria-label="Visibility"
+              aria-selected="false"
+              class="c11"
+              id="tab-0"
+              role="tab"
+              tabindex="-1"
+            >
+              Visibility 
+              <span>
+                HIDDEN
+              </span>
+            </button>
+            <button
+              aria-controls="panel-1"
+              aria-label="Description"
+              aria-selected="true"
+              class="c12"
+              id="tab-1"
+              role="tab"
+              tabindex="0"
+            >
+              Description 
+            </button>
+          </div>
+        </div>
+        <div
+          aria-labelledby="tab-1"
+          class="c13"
+          id="panel-1"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <div
+            class="c7 c14"
+          >
+            <h5
+              class="c15"
+            >
+              Description
+            </h5>
+          </div>
+          <div
+            class="c16"
+          >
+            <div>
+              description
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<DrawerMenu /> rendering should match snapshot 1`] = `
+<DocumentFragment>
+  .c4 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url([object Object]);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c4:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c4:hover {
+  opacity: 100%;
+}
+
+.c1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c3 {
+  margin: 32px;
+}
+
+.c5 {
+  background: #F9F9F9;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  background: #EEEEEE;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: overlay;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 4px;
+  width: 325px;
+  padding: 0 16px;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 325px;
+  padding: 0 16px;
+}
+
+.c12 {
+  width: 650px;
+  padding: 0 64px;
+}
+
+.c11 {
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: overlay;
+  border: 2px solid transparent;
+}
+
+.c11:focus-visible {
+  border: 2px solid #151515;
+}
+
+.c14 {
+  width: 650px;
+  padding: 0 64px;
+  color: #151515;
+}
+
+.c13 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.75rem;
+  margin: 0;
+  color: #151515;
+  padding: 24px 0 32px 0;
+}
+
+.c9 {
+  color: #151515;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  cursor: default;
+  color: #5F5F5F;
+  background: #FFFFFF;
+  font-weight: 600;
+}
+
+.c9 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.c9:focus-visible {
+  outline: 2px solid #151515;
+}
+
+.c10 {
+  color: #151515;
+  background: transparent;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.c10 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.c10:focus-visible {
+  outline: 2px solid #151515;
+}
+
+.c10:hover {
+  background-color: #DBDBDB;
+}
+
+@media (max-width:1024px) {
+  .c3 {
+    margin: 32px 16px;
+  }
+}
+
+@media (max-width:767px) {
+  .c5 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+@media (max-width:767px) {
+  .c6 {
+    overflow-y: unset;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    -webkit-transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    background: #F9F9F9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 {
+    overflow-y: overlay;
+  }
+}
+
+@media (max-width:1279px) {
+  .c8 {
+    width: 275px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c8 {
+    width: 225px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:767px) {
+  .c8 {
+    width: 100%;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c7 {
+    width: 275px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c7 {
+    width: 225px;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    width: 100%;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c7 {
+    margin: 32px 0;
+  }
+}
+
+@media (max-width:1279px) {
+  .c12 {
+    width: 550px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c12 {
+    width: 425px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c12 {
+    width: auto;
+  }
+}
+
+@media (max-width:767px) {
+  .c11 {
+    overflow-y: unset;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.25s ease-in-out;
+    -webkit-transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@media (max-width:1279px) {
+  .c14 {
+    width: 550px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c14 {
+    width: 425px;
+    padding: 0 32px;
+  }
+}
+
+@media (max-width:767px) {
+  .c14 {
+    width: auto;
+  }
+}
+
+@media (max-width:767px) {
+  .c14 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-y: overlay;
+  }
+}
+
+@media (max-width:767px) {
+  .c13 {
+    padding: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c9 {
+    padding: 16px 0;
+    color: #151515;
+    background: transparent;
+    font-weight: 500;
+  }
+}
+
+@media (max-width:767px) {
+  .c10 {
+    padding: 16px 0;
+    color: #151515;
+    background: transparent;
+    font-weight: 500;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1 c2"
+    >
+      <div
+        class="c3"
+      >
+        <button
+          aria-label="close"
+          class="c4"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+          data-testid="menu-options"
+        >
+          <div
+            class="c7"
+          />
+          <div
+            aria-labelledby="menu-title"
+            aria-orientation="vertical"
+            class="c8"
+            role="tablist"
+          >
+            <button
+              aria-controls="panel-0"
+              aria-label="Visibility"
+              aria-selected="true"
+              class="c9"
+              id="tab-0"
+              role="tab"
+              tabindex="0"
+            >
+              Visibility 
+              <span>
+                HIDDEN
+              </span>
+            </button>
+            <button
+              aria-controls="panel-1"
+              aria-label="Description"
+              aria-selected="false"
+              class="c10"
+              id="tab-1"
+              role="tab"
+              tabindex="-1"
+            >
+              Description 
+            </button>
+          </div>
+        </div>
+        <div
+          aria-labelledby="tab-0"
+          class="c11"
+          id="panel-0"
+          role="tabpanel"
+          tabindex="0"
+        >
+          <div
+            class="c7 c12"
+          >
+            <h5
+              class="c13"
+            >
+              Visibility
+            </h5>
+          </div>
+          <div
+            class="c14"
+          >
+            <div>
+              visibility
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

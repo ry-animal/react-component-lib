@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleButton /> rendering should match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(/foo/bar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  opacity: 100%;
+}
+
+<button
+    aria-label="Icon Button"
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`<CircleButton /> rendering should render dark theme button 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(/foo/bar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.15);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.3);
+}
+
+<button
+    aria-label="Icon Button"
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`<CircleButton /> rendering should render transparent button 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  border-radius: 10000px;
+  box-shadow: 0px 2px 8px RGBA(0,0,0,0.04);
+  pointer-events: auto;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  background-size: 20px auto;
+  background-image: url(/foo/bar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255,255,255,0.7);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+<button
+    aria-label="Icon Button"
+    class="c0"
+  />
+</DocumentFragment>
+`;

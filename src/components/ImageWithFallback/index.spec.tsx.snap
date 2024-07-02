@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageWithFallback /> rendering Default rendering matches snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="img"
+    class=""
+    src="//source.unsplash.com/user/erondu/800x800"
+  />
+</DocumentFragment>
+`;
+
+exports[`<ImageWithFallback /> rendering Renders fallback image when src broken 1`] = `
+<DocumentFragment>
+  <img
+    alt="img"
+    class=""
+    src="./bad-path.jpg"
+  />
+</DocumentFragment>
+`;
+
+exports[`<ImageWithFallback /> rendering Renders placeholder when loading if provided 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-image: url("//source.unsplash.com/user/erondu/5x5");
+  background-size: cover;
+}
+
+<img
+    alt="img"
+    class="c0"
+    src="//source.unsplash.com/user/erondu/800x800"
+  />
+</DocumentFragment>
+`;

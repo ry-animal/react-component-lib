@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LikeButton /> rendering should match snapshot (liked) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #EEEEEE;
+}
+
+.c1 {
+  width: 16px;
+}
+
+<button
+    aria-label="unlike (5)"
+    class="c0"
+  >
+    5
+    <img
+      alt="filled like icon"
+      class="c1"
+      src="[object Object]"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<LikeButton /> rendering should match snapshot (not liked) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #EEEEEE;
+}
+
+.c1 {
+  width: 16px;
+}
+
+<button
+    aria-label="like (5)"
+    class="c0"
+  >
+    5
+    <img
+      alt="empty like icon"
+      class="c1"
+      src="[object Object]"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<LikeButton /> rendering should match snapshot (string override) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  pointer-events: auto;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+  font-weight: 400;
+  gap: 4px;
+  color: #5F5F5F;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.c0:disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.c0:hover {
+  background-color: #EEEEEE;
+}
+
+.c1 {
+  width: 16px;
+}
+
+<button
+    aria-label="click here"
+    class="c0"
+  >
+    5
+    <img
+      alt="unliked"
+      class="c1"
+      src="[object Object]"
+    />
+  </button>
+</DocumentFragment>
+`;

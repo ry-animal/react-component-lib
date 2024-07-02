@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> rendering should render dropdown and matches snapshot (disabled) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  gap: 12px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: 0 0 0 1px #DBDBDB;
+  border-radius: 4px;
+}
+
+.c2:hover {
+  box-shadow: 0 0 0 2px #151515;
+}
+
+.c1 {
+  color: #151515;
+  margin: 0;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.c3 {
+  background: #FFFFFF;
+  color: #151515;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: pointer;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.c5 {
+  display: none;
+  padding: 8px;
+  gap: 4px;
+  z-index: 10;
+  background: #FFFFFF;
+  top: 56px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+  width: 100%;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0;
+  position: absolute;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="downshift-3-toggle-button"
+      id="downshift-3-label"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-3-label downshift-3-toggle-button"
+        class="c3"
+        disabled=""
+        id="downshift-3-toggle-button"
+        type="button"
+      >
+        Select One
+      </button>
+      <div
+        class="c4"
+      >
+        <svg
+          fill="none"
+          height="30"
+          viewBox="0 0 30 30"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.5 11.25L15 18.75L22.5 11.25"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+      <ul
+        aria-labelledby="downshift-3-label"
+        class="c5"
+        id="downshift-3-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Dropdown /> rendering should render dropdown and matches snapshot (with custom options) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  gap: 12px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: 0 0 0 1px #DBDBDB;
+  border-radius: 4px;
+}
+
+.c2:hover {
+  box-shadow: 0 0 0 2px #151515;
+}
+
+.c1 {
+  color: #151515;
+  margin: 0;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.c3 {
+  background: #FFFFFF;
+  color: #151515;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: pointer;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.c5 {
+  display: none;
+  padding: 8px;
+  gap: 4px;
+  z-index: 10;
+  background: #FFFFFF;
+  top: 56px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+  width: 100%;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0;
+  position: absolute;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="downshift-1-toggle-button"
+      id="downshift-1-label"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-1-label downshift-1-toggle-button"
+        class="c3"
+        id="downshift-1-toggle-button"
+        type="button"
+      >
+        Select One
+      </button>
+      <div
+        class="c4"
+      >
+        <svg
+          fill="none"
+          height="30"
+          viewBox="0 0 30 30"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.5 11.25L15 18.75L22.5 11.25"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+      <ul
+        aria-labelledby="downshift-1-label"
+        class="c5"
+        id="downshift-1-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Dropdown /> rendering should render dropdown and matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'Poppins',sans-serif;
+  gap: 12px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: box-shadow 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: 0 0 0 1px #DBDBDB;
+  border-radius: 4px;
+}
+
+.c2:hover {
+  box-shadow: 0 0 0 2px #151515;
+}
+
+.c1 {
+  color: #151515;
+  margin: 0;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.c3 {
+  background: #FFFFFF;
+  color: #151515;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 16px;
+  height: 48px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: pointer;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.c5 {
+  display: none;
+  padding: 8px;
+  gap: 4px;
+  z-index: 10;
+  background: #FFFFFF;
+  top: 56px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 16px RGBA(0,0,0,0.16);
+  width: 100%;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0;
+  position: absolute;
+}
+
+<div
+    class="c0"
+  >
+    <label
+      class="c1"
+      for="downshift-0-toggle-button"
+      id="downshift-0-label"
+    >
+      Label
+    </label>
+    <div
+      class="c2"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="downshift-0-label downshift-0-toggle-button"
+        class="c3"
+        id="downshift-0-toggle-button"
+        type="button"
+      >
+        Select One
+      </button>
+      <div
+        class="c4"
+      >
+        <svg
+          fill="none"
+          height="30"
+          viewBox="0 0 30 30"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.5 11.25L15 18.75L22.5 11.25"
+            stroke="#151515"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+      <ul
+        aria-labelledby="downshift-0-label"
+        class="c5"
+        id="downshift-0-menu"
+        role="listbox"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

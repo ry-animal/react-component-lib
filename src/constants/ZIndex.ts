@@ -1,0 +1,5 @@
+export const ZIndex = {
+  ACCOUNT_PREVIEW: 100,
+  SEARCH_RESULTS: 100,
+  MOBILE_MENU: 100,
+};

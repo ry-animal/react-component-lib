@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilePreview /> Default rendering matches snapshot (blur) 1`] = `
+<DocumentFragment>
+  .c1 {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.c0 {
+  display: inline-block;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <img
+      alt="Preview of uploaded image"
+      class="c1"
+      src="blob:http://localhost:6006/af2e50bd-bc94-4dff-ae8c-440eabdac5c6"
+    />
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    pixel.png
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FilePreview /> Default rendering matches snapshot (image file) 1`] = `
+<DocumentFragment>
+  .c1 {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <img
+      alt="Preview of uploaded image"
+      class="c1"
+      src="blob:http://localhost:6006/af2e50bd-bc94-4dff-ae8c-440eabdac5c6"
+    />
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    pixel.png
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FilePreview /> Default rendering matches snapshot (model file) 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <model-viewer
+      alt="3d model"
+      autoplay="true"
+      camera-controls="false"
+      environment-image="[object Object]"
+      exposure="2"
+      src="blob:http://localhost:6006/af2e50bd-bc94-4dff-ae8c-440eabdac5c6"
+      style="display: inline-block; max-height: 200px; max-width: 200px;"
+    />
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    model.glb
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FilePreview /> Default rendering matches snapshot (no file) 1`] = `
+<DocumentFragment>
+  .c1 {
+  height: 150px;
+  width: 150px;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <img
+      alt="A file has been selected"
+      class="c1"
+      src="[object Object]"
+    />
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`<FilePreview /> Default rendering matches snapshot (text file) 1`] = `
+<DocumentFragment>
+  .c1 {
+  height: 150px;
+  width: 150px;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <img
+      alt="A file has been selected"
+      class="c1"
+      src="[object Object]"
+    />
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    message.txt
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<FilePreview /> Default rendering matches snapshot (video file) 1`] = `
+<DocumentFragment>
+  .c1 {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.c0 {
+  display: inline-block;
+}
+
+<div
+    class="c0"
+    data-testid="blur"
+  >
+    <video
+      autoplay=""
+      class="c1"
+      controls=""
+      loop=""
+    >
+      <source
+        src="blob:http://localhost:6006/af2e50bd-bc94-4dff-ae8c-440eabdac5c6"
+        type="video/mp4"
+      />
+    </video>
+  </div>
+  .c0 {
+  color: #404040;
+}
+
+<div
+    class="c0"
+  >
+    mp4-with-audio.mp4
+  </div>
+</DocumentFragment>
+`;

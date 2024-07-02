@@ -1,0 +1,241 @@
+# GitLab CI config schema: https://docs.gitlab.com/ce/ci/yaml/index.html
+
+variables:
+  IMAGE_TAG: ${CI_COMMIT_BRANCH}-${CI_COMMIT_SHA}
+
+  SANDBOX_BRANCH: main
+  SANDBOX_ECR_REPOSITORY: 933609649349.dkr.ecr.us-east-1.amazonaws.com/${CI_PROJECT_NAME}
+
+  PROD_BRANCH: prod
+  PROD_ECR_REPOSITORY: 787579592221.dkr.ecr.us-east-1.amazonaws.com/${CI_PROJECT_NAME}
+
+  REPO_URL: ${CI_SERVER_HOST}/${CI_PROJECT_PATH}
+
+  # This image has npm installed:
+  #   see: https://hub.docker.com/r/library/node/tags/
+  NODE_IMAGE: node:14.17.3
+
+  # This image has kubectl & helm3 installed:
+  #   see: https://hub.docker.com/r/alpine/k8s
+  HELM_KUBECTL_IMAGE: alpine/k8s:1.21.2
+  DOCKER_IMAGE: docker:20.10.7
+  DOCKER_DIND_IMAGE: ${DOCKER_IMAGE}-dind
+
+  # Make sure npm cache is in a known location:
+  NPM_CACHE: npm_cache
+
+  DEPLOY_NAMESPACE: blockchain
+
+image: ${DOCKER_IMAGE}
+services:
+  - ${DOCKER_DIND_IMAGE}
+
+stages:
+  - prebuild
+  - build
+  - test
+  - predeploy
+  - deploy
+
+cache:
+  paths:
+    # Do cache the main npm cache (to speed up installs) but do not cache node_modules (to ensure
+    # that builds are consitent based on the contents of package-lock.json):
+    - $NPM_CACHE/
+
+prebuild-job:
+  stage: prebuild
+  image: $NODE_IMAGE
+  tags:
+    - k8s-sandbox
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: "$CI_COMMIT_BRANCH != $PROD_BRANCH"
+  before_script:
+    - deploy/artifactory-auth.sh
+    - deploy/git-config.sh
+  script:
+    - npm config set cache $NPM_CACHE --global
+    - npm ci --prefer-offline
+    - npm run gl-prebuild
+
+build-job:
+  stage: build
+  image: $NODE_IMAGE
+  tags:
+    - k8s-sandbox
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: "$CI_COMMIT_BRANCH != $PROD_BRANCH"
+  before_script:
+    - deploy/artifactory-auth.sh
+    - deploy/git-config.sh
+  script:
+    - npm config set cache $NPM_CACHE --global
+    - npm ci --prefer-offline
+    - npm run gl-build
+  artifacts:
+    paths:
+      - build/
+      - storybook-static/
+
+test-job:
+  stage: test
+  image: $NODE_IMAGE
+  tags:
+    - k8s-sandbox
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: "$CI_COMMIT_BRANCH != $PROD_BRANCH"
+  before_script:
+    - deploy/artifactory-auth.sh
+    - deploy/git-config.sh
+  script:
+    - npm ci --prefer-offline
+    - npm run gl-test
+  after_script:
+    # This is needed because GitLab is awful and gets confused by the source element in the coverage XML:
+    - cat coverage/cobertura-coverage.xml | sed -e "s|$CI_PROJECT_DIR|.|g" > coverage/gitlab.xml
+  artifacts:
+    when: always
+    paths:
+      - coverage/
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/gitlab.xml
+  coverage: /^Lines\s*:\s*([^%]+)/
+
+build-and-push-image:
+  tags:
+    - k8s-sandbox
+  stage: predeploy
+  variables:
+    AWS_SECRET_ACCESS_KEY: ${SANDBOX_AWS_SECRET_ACCESS_KEY}
+    AWS_ACCESS_KEY_ID: ${SANDBOX_AWS_ACCESS_KEY_ID}
+    AWS_DEFAULT_REGION: us-east-1
+    DOCKER_HUB_USER: ${LAUNCHPAD_DOCKER_HUB_USER}
+    DOCKER_HUB_TOKEN: ${LAUNCHPAD_DOCKER_HUB_TOKEN}
+    ECR_REPOSITORY: ${SANDBOX_ECR_REPOSITORY}
+    TWISTLOCK_SAAS_CI_USER: ${PRISMA_TWISTLOCK_CI_USER}
+    TWISTLOCK_SAAS_CI_PASS: ${PRISMA_TWISTLOCK_CI_PASS}
+    DOCKER_CLIENT_ADDRESS: "tcp://localhost:2375"
+    TWISTLOCK_CONSOLE_SAAS: ${PRISMA_TWISTLOCK_CONSOLE}
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_BRANCH == $SANDBOX_BRANCH && $CI_COMMIT_MESSAGE =~ /^chore\(release\)[:] v.*/
+  before_script:
+    - apk update --no-cache
+    - apk add make bash curl jq
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_docker_hub_login.sh
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_docker_login.sh
+  script:
+    - docker build -t ${SANDBOX_ECR_REPOSITORY}:${IMAGE_TAG} .
+    - bash ${CI_PROJECT_DIR}/deploy/security_scan.sh ${SANDBOX_ECR_REPOSITORY}:${IMAGE_TAG} ${PRISMA_TWISTLOCK_CONSOLE}
+    - aws ecr describe-repositories --repository-names ${CI_PROJECT_NAME} --region ${AWS_DEFAULT_REGION} || aws ecr create-repository --repository-name ${CI_PROJECT_NAME} --region ${AWS_DEFAULT_REGION}
+    - docker push ${SANDBOX_ECR_REPOSITORY}:${IMAGE_TAG}
+
+copy-image:
+  tags:
+    - k8s-sandbox
+  stage: predeploy
+  variables:
+    AWS_DEFAULT_REGION: us-east-1
+    IMAGE_TAG: ${SANDBOX_BRANCH}-${CI_COMMIT_SHA}
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: "$CI_COMMIT_BRANCH == $PROD_BRANCH"
+  before_script:
+    - apk add --no-cache bash
+  script:
+    # First perform docker login on sandbox account for access to pull our docker image from ECR
+    - export AWS_SECRET_ACCESS_KEY=${SANDBOX_AWS_SECRET_ACCESS_KEY} && export AWS_ACCESS_KEY_ID=${SANDBOX_AWS_ACCESS_KEY_ID} && export ECR_REPOSITORY=${SANDBOX_ECR_REPOSITORY}
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_docker_login.sh
+    - docker pull ${SANDBOX_ECR_REPOSITORY}:${IMAGE_TAG}
+
+    # Next perform docker login on prod account for access to ECR
+    - export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY} && export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID} && export ECR_REPOSITORY=${PROD_ECR_REPOSITORY}
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_docker_login.sh
+
+    # Create an ECR repository if it does not already exist
+    - aws ecr describe-repositories --repository-names ${CI_PROJECT_NAME} --region ${AWS_DEFAULT_REGION} || aws ecr create-repository --repository-name ${CI_PROJECT_NAME} --region ${AWS_DEFAULT_REGION}
+
+    # Tag our docker image for prod ECR repo and push
+    - docker tag ${SANDBOX_ECR_REPOSITORY}:${IMAGE_TAG} ${PROD_ECR_REPOSITORY}:${IMAGE_TAG}
+    - docker push ${PROD_ECR_REPOSITORY}:${IMAGE_TAG}
+
+publish-npm:
+  image: $NODE_IMAGE
+  stage: deploy
+  tags:
+    - k8s-sandbox
+  before_script:
+    - deploy/artifactory-auth.sh
+    - deploy/git-config.sh
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_BRANCH == $SANDBOX_BRANCH && $CI_COMMIT_MESSAGE !~ /^chore\(release\)[:] v.*/
+  script:
+    - git config receive.advertisePushOptions true
+    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
+    - npm run release
+    - git push https://pipeline:${GITLAB_ACCESS_TOKEN_MARKETPLACE}@$REPO_URL --follow-tags $SANDBOX_BRANCH:$SANDBOX_BRANCH
+    - npm run pre-publish
+    - npm publish build
+
+deploy-storybook-sandbox:
+  stage: deploy
+  image: ${HELM_KUBECTL_IMAGE}
+  services: []
+  variables:
+    CLUSTER_NAME: launchpad-pandora-sandbox
+    AWS_ACCESS_KEY_ID: ${LAUNCHPAD_BLOCKCHAIN_AWS_ACCESS_KEY_ID}
+    AWS_SECRET_ACCESS_KEY: ${LAUNCHPAD_BLOCKCHAIN_AWS_SECRET_ACCESS_KEY}
+    AWS_DEFAULT_REGION: us-east-1
+    VALUES_FILE: ${CI_PROJECT_DIR}/deploy/charts/values.yaml
+  environment:
+    name: sandbox
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+      when: never
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: $CI_COMMIT_BRANCH == $SANDBOX_BRANCH && $CI_COMMIT_MESSAGE =~ /^chore\(release\)[:] v.*/
+  script:
+    - apk add --no-cache bash
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_deploy.sh
+
+deploy-storybook-prod:
+  stage: deploy
+  image: ${HELM_KUBECTL_IMAGE}
+  services: []
+  variables:
+    AWS_ACCESS_KEY_ID: ${LAUNCHPAD_BLOCKCHAIN_AWS_ACCESS_KEY_ID}
+    AWS_DEFAULT_REGION: us-east-1
+    AWS_SECRET_ACCESS_KEY: ${LAUNCHPAD_BLOCKCHAIN_AWS_SECRET_ACCESS_KEY}
+    CLUSTER_NAME: launchpad-pandora-prod
+    IMAGE_TAG: ${SANDBOX_BRANCH}-${CI_COMMIT_SHA}
+    VALUES_FILE: ${CI_PROJECT_DIR}/deploy/charts/values-prod.yaml
+  environment:
+    name: prod
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - if: "$CI_COMMIT_BRANCH == $PROD_BRANCH"
+  script:
+    - apk add --no-cache bash
+    - bash ${CI_PROJECT_DIR}/deploy/gitlab_deploy.sh
